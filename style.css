@@ -1,1 +1,19 @@
+      html {
+        display: flex;
+        flex-direction: row;
+        justify-content: top;
+        align-items: center;
+      }
 
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEeuIqjeNMY8qm4OpHefqd2IdBoiqkbLlXxYJhi-XUyD0LKnIvl3GvcSg:https://i.redd.it/iapqmzd3zu721.jpg&s');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: arial;
+      }
