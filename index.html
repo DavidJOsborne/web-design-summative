@@ -1,0 +1,99 @@
+<head>
+  <style>
+    html {
+      display: flex;
+      flex-direction: row;
+      justify-content: top;
+      align-items: center;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEeuIqjeNMY8qm4OpHefqd2IdBoiqkbLlXxYJhi-XUyD0LKnIvl3GvcSg:https://i.redd.it/iapqmzd3zu721.jpg&s');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: arial;
+    }
+
+    #columns {
+      display: flex;
+      height: 100%;
+      width: 85vw;
+      align-items: top;
+      justify-content: center;
+    }
+
+    #columns>div {
+      padding: 0px 5px 0px 5px;
+      margin: 0px 5px 0px 5px;
+      border: 3px solid black;
+      box-sizing: border-box;
+    }
+
+    #columns>div>h2 {
+      color: crimson;
+    }
+
+    #columns>div>p {
+      color: white;
+    }
+
+    .rightaligned {
+      text-align: right;
+    }
+
+    .centeraligned {
+      text-align: center;
+    }
+
+    .leftaligned {
+      text-align: left;
+    }
+
+  </style>
+</head>
+
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Brawl_Stars_logo.png" alt="Logo">
+  <h1>
+    Web Design Summative
+  </h1>
+  <hr style="height: 2px; width: 50%; background-color: black; color: black; border: none;">
+
+  <div id="columns">
+
+    <div class="leftaligned">
+      <h2>
+        Brawlers
+      </h2>
+      <p>
+        There are many brawlers in BrawlStars, <a href="/brawlers.html">click here</a> to see the different brawlers.
+      </p>
+
+    </div>
+    <div class="centeraligned">
+      <h2>
+        Gamemodes
+      </h2>
+      <p>
+        There are currently x gamemodes in BrawlStars, <a href="/gamemodes.html">click here</a> to see a list of all gamemodes.
+      </p>
+
+    </div>
+    <div class="rightaligned">
+      <h2>
+        Maps
+      </h2>
+      <p>
+        For every gamemode in BrawlStars there are multiple maps <a href="/maps.html">click here</a> to see a few official BrawlStars maps
+      </p>
+
+    </div>
+
+  </div>
+</body>
