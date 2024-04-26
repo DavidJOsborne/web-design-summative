@@ -13,25 +13,39 @@
 
       #brawlers {
         background: rgba(80, 150, 255, 0.9);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        border: 2px solid rgb(0, 75, 125);
+        text-align: center;
+        width: 70%;
       }
 
-      table,
-      th,
-      td {
+      .brawlercard {
+        margin: 5px;
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         border: 2px solid rgb(0, 75, 125);
         text-align: center;
       }
 
-      td>img {
-        border: 2px solid rgb(0, 75, 125);
-        height: 90%;
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEeuIqjeNMY8qm4OpHefqd2IdBoiqkbLlXxYJhi-XUyD0LKnIvl3GvcSg:https://i.redd.it/iapqmzd3zu721.jpg&s');
+      .cardsections {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
       }
 
-      #brawlers {
+      .brawlercardL,
+      .brawlercardR {
+        margin: 5px;
         display: flex;
-        flex-flow: row wrap;
-        width: 85%;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
       }
 
@@ -43,21 +57,56 @@
       Brawlers
     </h1>
     <hr style="height: 2px; width: 50%; background-color: black; color: black; border: none;">
-    <table id="brawlers">
+    <div id="brawlers">
 
-      <td>
+
+
+      <div class="brawlercard">
+
         <h2 class="brawlername">
           Shelly
         </h2>
-        <img src="https://static.wikia.nocookie.net/brawlstars/images/5/5e/Shelly_Skin-Default.png" alt="Picture of Brawler">
-        <br>
-        <p class="description">
-          Girl with purple hair
-        </p>
-      </td>
+        <div class="cardsections">
+          <div class="brawlercardL">
+            <img src="https://static.wikia.nocookie.net/brawlstars/images/5/5e/Shelly_Skin-Default.png" alt="Picture of Brawler">
+            <p class="skin">
+              Shelly Default Skin
+            </p>
+          </div>
+          <div class="brawlercardR">
+            <b>
+              <p>
+                Description:
+              </p>
+            </b>
+            <p class="description">
+              Girl with purple hair.
+            </p>
+            <b>
+              <p>
+                Rarity:
+              </p>
+            </b>
+            <p>
+              Starting Brawler
+            </p>
+            <b>
+              <p>
+                Class:
+              </p>
+            </b>
+            <p>
+              Damage Dealer
+            </p>
+          </div>
+        </div>
+
+      </div>
 
 
-    </table>
+
+
+    </div>
 
   </body>
 
