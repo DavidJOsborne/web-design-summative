@@ -26,12 +26,25 @@
         box-sizing: border-box;
       }
 
-      #columns>div>h2 {
+      #topbox,
+      #bottombox {
+        margin: 5px;
+        padding: 0px 5px 0px 5px;
+        border: 3px solid black;
+        width: calc(85vw - 10px);
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      #columns>div>h2,
+      #topbox>h2 {
         color: crimson;
         text-align: center;
       }
 
-      #columns>div>p {
+      #columns>div>p,
+      #topbox>p,
+      #bottombox>p {
         color: white;
       }
 
@@ -47,6 +60,11 @@
         text-align: left;
       }
 
+      #footer {
+        text-align: center;
+        margin-top: 5px;
+      }
+
     </style>
   </head>
 
@@ -56,7 +74,14 @@
       Web Design Summative
     </h1>
     <hr style="height: 2px; width: 50%; background-color: black; color: black; border: none;">
-
+    <div id="topbox">
+      <h2>
+        Site Information
+      </h2>
+      <p>
+        To learn more about this site, <a href="#bottombox">click here</a>.
+      </p>
+    </div>
     <div id="columns">
 
       <div>
@@ -87,6 +112,17 @@
 
       </div>
 
+    </div>
+    <div id="bottombox">
+      <p>
+        This site was made for a summative project in my web design class.
+      </p>
+      <p>
+        My chosen topic to base the site off is Brawl Stars because thats what my friends said I should do.
+      </p>
+    </div>
+    <div id="footer">
+      <a href="https://github.com/DavidJOsborne/web-design-summative" target="_blank">GitHub repo</a>
     </div>
   </body>
 
