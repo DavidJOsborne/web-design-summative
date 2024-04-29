@@ -27,7 +27,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: top;
         border: 2px solid rgb(0, 75, 125);
         text-align: center;
       }
@@ -42,7 +42,9 @@
 
       .brawlercardL,
       .brawlercardR {
-        margin: 5px;
+        margin: 0px 5px 0px 5px;
+        height: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -50,10 +52,7 @@
       }
 
       .brawlercardL>img {
-        max-height: 100vmax;
-        max-width: 100vmax;
-
-
+        max-height: 70%;
       }
 
     </style>
@@ -73,6 +72,9 @@
         <h2 class="brawlername">
           Shelly
         </h2>
+        <p class="description">
+          Girl with purple hair.
+        </p>
         <div class="cardsections">
           <div class="brawlercardL">
             <img class="brawlerpic" src="https://static.wikia.nocookie.net/brawlstars/images/5/5e/Shelly_Skin-Default.png" alt="Picture of Brawler">
@@ -81,14 +83,6 @@
             </p>
           </div>
           <div class="brawlercardR">
-            <b>
-              <p>
-                Description:
-              </p>
-            </b>
-            <p class="description">
-              Girl with purple hair.
-            </p>
             <b>
               <p>
                 Rarity:
@@ -112,6 +106,47 @@
 
 
 
+
+
+
+
+
+      <div class="brawlercard">
+
+        <h2 class="brawlername">
+          Nita
+        </h2>
+        <p class="description">
+          Girl who is friends with a bear.
+        </p>
+        <div class="cardsections">
+          <div class="brawlercardL">
+            <img class="brawlerpic" src="https://static.wikia.nocookie.net/brawlstars/images/3/36/Nita_Skin-Default.png" alt="Picture of Brawler">
+            <p class="skin">
+              Shelly Default Skin
+            </p>
+          </div>
+          <div class="brawlercardR">
+            <b>
+              <p>
+                Rarity:
+              </p>
+            </b>
+            <p>
+              Rare
+            </p>
+            <b>
+              <p>
+                Class:
+              </p>
+            </b>
+            <p>
+              Damage Dealer
+            </p>
+          </div>
+        </div>
+
+      </div>
 
 
 
