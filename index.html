@@ -3,6 +3,26 @@
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DavidJOsborne/web-design-summative@master/style.css">
     <style>
+      html>* {
+        font-family: Calibri, Arial;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: crimson;
+        text-shadow: -0.05em 0.08em #000000,
+          0.05em 0.08em #000000,
+          -0.05em -0.05em #000000,
+          0.05em -0.05em #000000,
+          0.05em 0.05em #000000,
+          -0.05em 0.05em #000000;
+      }
+
+      #title {
+        font-size: 50px;
+      }
+
       body {
         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEeuIqjeNMY8qm4OpHefqd2IdBoiqkbLlXxYJhi-XUyD0LKnIvl3GvcSg:https://i.redd.it/iapqmzd3zu721.jpg&s');
         background-repeat: no-repeat;
@@ -38,7 +58,6 @@
 
       #columns>div>h2,
       #topbox>h2 {
-        color: crimson;
         text-align: center;
       }
 
@@ -59,9 +78,11 @@
       .leftaligned {
         text-align: left;
       }
- #footer {
+
+      #footer {
         text-align: center;
       }
+
     </style>
   </head>
 
@@ -69,7 +90,7 @@
     <a href="https://supercell.com/en/games/brawlstars/" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Brawl_Stars_logo.png" alt="Logo">
     </a>
-    <h1>
+    <h1 id="title">
       Web Design Summative
     </h1>
     <hr style="height: 2px; width: 50%; background-color: black; color: black; border: none;">
@@ -118,6 +139,7 @@
       </p>
       <p>
         My chosen topic to base the site off is Brawl Stars because thats what my friends said I should do.
+
       </p>
     </div>
     <div id="footer">
